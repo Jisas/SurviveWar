@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - CinemachineTarget
+  - Projectile
+  - FxTemporaire
+  - Target/ProjectileTarget
+  - Character
+  - RigLayers
+  - Magazine
+  - PlayerEyes
+  - Ship
+  - Water
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Clouds
+  - Water
+  - UI
+  - Camera
+  - Character
+  - Character/Head
+  - Character/Body
+  - Grass
+  - Weapon
+  - Projectile
+  - Object
+  - Object/SoftBody
+  - Object/Metal
+  - Object/Concrete
+  - Object/Wood
+  - 
+  - 
+  - 
+  - Ground
+  - Ground/Wood
+  - Ground/Concrete
+  - Ground/Rock
+  - Ground/Dirt
+  - Planet
+  - 
+  - Animal
+  - Animal/Head
+  - Animal/Body
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
