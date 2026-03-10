@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6163158194115711991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6163158194115711989}
+  - component: {fileID: 6163158194115711990}
+  m_Layer: 0
+  m_Name: TreePainter_Tool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6163158194115711989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6163158194115711991}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2000, y: 0, z: 2000}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6163158194115711990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6163158194115711991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5125c285ed889964f90bb3a95857c784, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs: []
+  treeLimit: 500000
+  painting: 0
+  removing: 0
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 2097152
+  paintMask:
+    serializedVersion: 2
+    m_Bits: 2097152
+  brushSize: 26.2
+  density: 3
+  normalLimit: 1
+  hitPosGizmo: {x: 1304.1985, y: 86.273384, z: 1296.4413}
+  hitNormal: {x: -0.09692629, y: 0.96983767, z: -0.22365166}
+  i: 1329
+  toolbarInt: 0
